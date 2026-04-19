@@ -88,7 +88,8 @@ th, td{
 }
 
 form{
-    margin-top: 20px;
+    margin-top: 20px ;
+    
 }
 
 input, select{
@@ -143,4 +144,26 @@ footer{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+@media (max-width:768px){
+    .header{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logo1{
+        width: 50px;
+    }
+
+    .logo2{
+        width: 50px;
+        
+    }
+
+    .title{
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
 }
